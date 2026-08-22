@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      `viewport-fit=cover` lets the page reach under a notch or a rounded corner, which is what
+      you want once the browser chrome is gone. The layout keeps clear of those areas with the
+      `env(safe-area-inset-*)` padding in the shell stylesheet; without this attribute those
+      values are always zero and the padding does nothing.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>OntoSchema — visual ontology schema builder</title>
+    <meta
+      name="description"
+      content="Build schema-level (TBox) ontologies on a drag-and-drop canvas and export them to Turtle, RDF/XML and JSON-LD."
+    />
+
+    <!--
+      Installing to the home screen is the only way to lose the address bar on iOS, where the
+      Fullscreen API is offered for video and nothing else. The manifest covers modern iOS and
+      every Android browser; `apple-mobile-web-app-capable` is the older iOS spelling of the same
+      wish and still read by versions before 16.4.
+    -->
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="icon.svg" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="OntoSchema" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="theme-color" content="#a8762c" />
+    <script type="module" crossorigin src="./assets/index-C19fYgeM.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/rolldown-runtime-CbXtAM7H.js">
+    <link rel="modulepreload" crossorigin href="./assets/canvas-BbjntiAT.js">
+    <link rel="modulepreload" crossorigin href="./assets/react-DGFEf-BD.js">
+    <link rel="modulepreload" crossorigin href="./assets/rdf-BrkY6iye.js">
+    <link rel="stylesheet" crossorigin href="./assets/canvas-DLioOiRN.css">
+    <link rel="stylesheet" crossorigin href="./assets/index-C-Xs52Jh.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
