@@ -1,0 +1,31 @@
+{
+  "name": "OntoSchema — visual ontology schema builder",
+  "short_name": "OntoSchema",
+  "description": "Build schema-level (TBox) ontologies on a drag-and-drop canvas and export them to Turtle, RDF/XML and JSON-LD.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f7f8fa",
+  "theme_color": "#a8762c",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "type": "image/svg+xml",
+      "sizes": "any",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="OntoSchema">
+  <!--
+    Drawn rather than exported, so it stays a text file the repository can diff.
+
+    The safe area for a maskable icon is the middle 80%, since a launcher may crop the corners to
+    any shape it likes. Everything that matters sits inside a 410px circle centred on the canvas.
+
+    No background: the drawing sits on whatever is behind it. That puts the burden on the marks
+    themselves being visible on both a light and a dark surface, which is why the edges and the
+    outlines are tan rather than cream — cream on a white home screen is nothing at all.
+  -->
+  <g fill="none" stroke="#a8762c" stroke-width="18" stroke-linecap="round" stroke-linejoin="round">
+    <!-- A class with two subclasses: the smallest picture of what the app is for. -->
+    <rect x="196" y="136" width="120" height="72" rx="10" fill="#faf1e0" />
+    <path d="M256 208v40" />
+    <path d="M166 248h180" />
+    <path d="M166 248v32M346 248v32" />
+    <rect x="116" y="280" width="100" height="64" rx="10" fill="#a8762c" />
+    <rect x="296" y="280" width="100" height="64" rx="10" fill="#a8762c" />
+  </g>
+</svg>
